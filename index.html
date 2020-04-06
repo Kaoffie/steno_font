@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Steno Font Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css" integrity="sha256-itWEYdFWzZPBG78bJOOiQIn06QCgN/F0wMDcC4nOhxY=" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="steno.css" />
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-101730653-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <div class="top-bar pastelred">
+      <div class="top-bar-left">
+        <ul class="menu show-for-small-only">
+          <li class="menu-text">Steno Font Test</li>
+        </ul>
+        <ul class="menu show-for-medium">
+          <li class="menu-text">Steno Font Test</li>
+        </ul>
+      </div>
+    </div><br />
+    <div class="column row" id="content">
+      <label for="user-field">Text Input</label>
+      <p class="help-text db-help" id="user-help">Input Steno Here!</p>
+      <input type="text" id="user-field" aria-describedby="user-help" required>
+
+      <label>Stenodisplay-Font</label>
+      <p class="help-text db-help" id="syntax-help">Used for general steno display.</p>
+      <div class="callout secondary exp">
+        <pre class="steno-font" id="steno-font"></pre>
+      </div>
+
+      <label>Stenodisplay-Dict</label>
+      <p class="help-text db-help" id="syntax-help">Used for browsing Plover dictionaries.</p>
+      <div class="callout secondary exp">
+        <pre class="steno-dict" id="steno-dict"></pre>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js" integrity="sha256-Nd2xznOkrE9HkrAMi4xWy/hXkQraXioBg9iYsBrcFrs=" crossorigin="anonymous"></script>
+    <script src="steno.js"></script>
+    <script>
+      $(document).foundation();
+      $(document).ready(pageLoad('create'));
+    </script>
+  </body>
+</html>

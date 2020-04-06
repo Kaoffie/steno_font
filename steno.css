@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Stenodisplay-Dict;
+    src: url(Stenodisplay-Dict.ttf);
+}
+@font-face {
+    font-family: Stenodisplay-Font;
+    src: url(Stenodisplay-Font.ttf);
+}
+.steno-dict {
+    white-space: pre-wrap;
+    font-family: Stenodisplay-Dict;
+    font-size: 50pt;
+}
+.steno-font {
+    white-space: pre-wrap;
+    font-family: Stenodisplay-Font, monospace;
+    font-size: 70pt;
+}
+input:required:invalid {
+    border-color: red;
+}
+.db-help {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.exp {
+    min-height: 3.750rem;
+}
+.top-bar ul {
+    color: #FFF;
+    background-color: #FE6861;
+}
+.top-bar ul a {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #FFF;
+    opacity: .8;
+}
+.top-bar ul .act-pg a {
+    opacity: 1;
+}
+.m-item {
+    padding-bottom: 0.2rem;
+}
+.pastelred {
+    background-color: #FE6861;
+}
+.callout {
+    font-size: 0.875rem;
+}
+input[type="text"], select {
+    height: 2.125rem;
+    font-size: 0.875rem;
+}
+.bh {
+    color: #E74C3C;
+}
+.show-for-small-only > li > a {
+    font-size: 1.375rem;
+}
