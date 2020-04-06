@@ -1,5 +1,5 @@
 ## Steno Display Font Demo
----
+
 Feel free to download any of the fonts on the repo!
 
 - Stenodisplay-Dict: Used for browsing Plover dictionaries.
