@@ -31,7 +31,7 @@ You can try out an interactive demo of the fonts here: https://kaoffie.github.io
 
 ## Download
 
-Download it here: https://github.com/Kaoffie/steno_font/releases/tag/v2.0
+Download it here: https://github.com/Kaoffie/steno_font/releases/tag/v2.1
 
 
 ## Credits & Misc
