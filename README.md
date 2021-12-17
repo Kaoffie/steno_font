@@ -36,4 +36,8 @@ Download it here: https://github.com/Kaoffie/steno_font/releases/tag/v2.0
 
 ## Credits & Misc
 
-This font is licensed under the SIL Open Font License, Version 1.1. You need not credit any of the authors of the font if you are using it anywhere for any commercial or personal use, but if you would, please include the names of all contributors listed in this repository.
+This font is licensed under the SIL Open Font License, Version 1.1. You need not credit any of the authors of the font if you are using it anywhere for any commercial or personal use, but if you would still like to, please include the names of all contributors listed in this repository.
+
+Thanks to @sachac for the original labelled font!
+
+This font was inspired by the original steno font created by marnanel, which can be found here: http://www.chiark.greenend.org.uk/~tthurman/stenofont/test.html
