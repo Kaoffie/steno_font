@@ -17,6 +17,8 @@ Stenodisplay comes with four layouts in the latest release package:
 - **Square**, where all keys are square or rectangular;
 - **Palantype**, which is an alternative stenographic layout used sometimes in the UK.
 
+On the palantype layout, both cross (`+`) and point (`^`) are assigned to two keys - if you'd like to highlight just one key, you may use `[]` and `<>` respectively. 
+
 ![](https://user-images.githubusercontent.com/30435273/146593270-25b7d32a-f6f9-4571-86ae-1350a47fa130.png)
 
 ### Variants
@@ -38,6 +40,6 @@ Download it here: https://github.com/Kaoffie/steno_font/releases/tag/v2.1
 
 This font is licensed under the SIL Open Font License, Version 1.1. You need not credit any of the authors of the font if you are using it anywhere for any commercial or personal use, but if you would still like to, please include the names of all contributors listed in this repository.
 
-Thanks to @sachac for the original labelled font!
+Thanks to [@sachac](https://github.com/sachac) for the original labelled font!
 
 This font was inspired by the original steno font created by marnanel, which can be found here: http://www.chiark.greenend.org.uk/~tthurman/stenofont/test.html
