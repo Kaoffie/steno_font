@@ -1,26 +1,39 @@
-## Steno Display Font Demo
+# Stenodisplay 
 
-Feel free to download any of the fonts on the repo!
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaoffie/steno_font)
+![SIL Open Font License 1.1](https://img.shields.io/badge/license-OFL--1.1-green)
 
-- Stenodisplay-Dict: Used for browsing Plover dictionaries.
-- Stenodisplay-Font: General steno font, will display steno wherever appropriate.
-- Stenodisplay-LetterFont: Same as above but keys are labelled.
+**Stenodisplay** is a font generates steno key diagrams directly from raw steno outlines, designed for use in blogs, websites, spreadsheets, and flashcards.
 
-All the fonts listed use contextual alternatives grouped under ligatures (`liga`). For applications such as Microsoft Word, you may have to turn on ligatures manually for the font to work correctly. For TapeBase and TapeSteno, 
-***
-Test it out here: https://kaoffie.github.io/steno_font/
+![](https://user-images.githubusercontent.com/30435273/146593219-390f8b35-a9f5-4cd3-a11d-f4dc2ba216da.png)
 
-Download it here: https://github.com/Kaoffie/steno_font/releases/tag/v1.1
+## Features
+
+### Layouts
+
+Stenodisplay comes with four layouts in the latest release package: 
+- **Classic**, where most keys are the same width;
+- **Wide**, with a wide asterisk key as well as wide D and Z keys;
+- **Square**, where all keys are square or rectangular;
+- **Palantype**, which is an alternative stenographic layout used sometimes in the UK.
+
+![](https://user-images.githubusercontent.com/30435273/146593270-25b7d32a-f6f9-4571-86ae-1350a47fa130.png)
+
+### Variants
+
+In addition to different layouts, each layout comes with different variants with varying label text size, suitable for different applications such as large label texts for inline diagrams, or small labels for large diagrams between paragraphs. Note that these variants are not available for the Palantype layout yet.
+
+![](https://user-images.githubusercontent.com/30435273/146593308-5947ca58-7081-4cb0-af2b-3d227972499d.png)
+
+## Try it yourself!
+
+You can try out an interactive demo of the fonts here: https://kaoffie.github.io/steno_font/
+
+## Download
+
+Download it here: https://github.com/Kaoffie/steno_font/releases/tag/v2.0
 
 
-## Deprecated Stuff
+## Credits & Misc
 
-These fonts are used for the tape, but it's highly recommended that you use the [Layout Display](https://pypi.org/project/plover-layout-display/) plugin instead. Make sure you install TapeSteno first, then TapeBase. Installing TapeBase will allow you to use TapeSteno in Plover's tape function despite it not being a monospaced font.
-
-- Stenodisplay-TapeBase: Used for Plover Tape (only tested on Windows)
-- Stenodisplay-TapeSteno: Used for Plover Tape (only tested on Windows)
-
-
-## Future Plans
-
-Currently busy with life but once I'm free I'll be doing an overhaul of the fonts to include more labelled stuff. Stay tuned! (No guarantees tho)
+This font is licensed under the SIL Open Font License, Version 1.1. You need not credit any of the authors of the font if you are using it anywhere for any commercial or personal use, but if you would, please include the names of all contributors listed in this repository.

@@ -1,8 +1,15 @@
 function updateSyntax() {
     var input_text = $('#user-field').val();
 
-    $('#steno-font').text(input_text);
-    $('#steno-dict').text(input_text);
+    $('#steno-wide').text(input_text);
+    $('#steno-widemedium').text(input_text);
+    $('#steno-widelarge').text(input_text);
+    $('#steno-wideblank').text(input_text);
+
+    $('#steno-square').text(input_text);
+    $('#steno-squaremedium').text(input_text);
+    $('#steno-squarelarge').text(input_text);
+    $('#steno-squareblank').text(input_text);
 }
 
 function pageLoad(page) {

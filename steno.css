@@ -1,21 +1,138 @@
 @font-face {
-    font-family: Stenodisplay-Dict;
-    src: url(Stenodisplay-Dict.ttf);
+    font-family: Stenodisplay Classic;
+    src: url(Stenodisplay-Classic.ttf);
 }
+.steno-classic {
+    white-space: pre-wrap;
+    font-family: Stenodisplay Classic, monospace;
+    font-size: 200pt;
+}
+
 @font-face {
-    font-family: Stenodisplay-Font;
-    src: url(Stenodisplay-Font.ttf);
+    font-family: Stenodisplay Classic Medium;
+    src: url(Stenodisplay-ClassicMedium.ttf);
 }
-.steno-dict {
+.steno-classicmedium {
     white-space: pre-wrap;
-    font-family: Stenodisplay-Dict;
-    font-size: 50pt;
+    font-family: Stenodisplay Classic Medium, monospace;
+    font-size: 200pt;
 }
-.steno-font {
+
+
+@font-face {
+    font-family: Stenodisplay Classic Large;
+    src: url(Stenodisplay-ClassicLarge.ttf);
+}
+.steno-classiclarge {
     white-space: pre-wrap;
-    font-family: Stenodisplay-Font, monospace;
-    font-size: 70pt;
+    font-family: Stenodisplay Classic Large, monospace;
+    font-size: 200pt;
 }
+
+@font-face {
+    font-family: Stenodisplay Classic Blank;
+    src: url(Stenodisplay-ClassicBlank.ttf);
+}
+.steno-classicblank {
+    white-space: pre-wrap;
+    font-family: Stenodisplay Classic Blank, monospace;
+    font-size: 200pt;
+}
+
+@font-face {
+    font-family: Stenodisplay Wide;
+    src: url(Stenodisplay-Wide.ttf);
+}
+.steno-wide {
+    white-space: pre-wrap;
+    font-family: Stenodisplay Wide, monospace;
+    font-size: 200pt;
+}
+
+@font-face {
+    font-family: Stenodisplay Wide Medium;
+    src: url(Stenodisplay-WideMedium.ttf);
+}
+.steno-widemedium {
+    white-space: pre-wrap;
+    font-family: Stenodisplay Wide Medium, monospace;
+    font-size: 200pt;
+}
+
+
+@font-face {
+    font-family: Stenodisplay Wide Large;
+    src: url(Stenodisplay-WideLarge.ttf);
+}
+.steno-widelarge {
+    white-space: pre-wrap;
+    font-family: Stenodisplay Wide Large, monospace;
+    font-size: 200pt;
+}
+
+@font-face {
+    font-family: Stenodisplay Wide Blank;
+    src: url(Stenodisplay-WideBlank.ttf);
+}
+.steno-wideblank {
+    white-space: pre-wrap;
+    font-family: Stenodisplay Wide Blank, monospace;
+    font-size: 200pt;
+}
+
+@font-face {
+    font-family: Stenodisplay Square;
+    src: url(Stenodisplay-Square.ttf);
+}
+.steno-square {
+    white-space: pre-wrap;
+    font-family: Stenodisplay Square, monospace;
+    font-size: 200pt;
+}
+
+@font-face {
+    font-family: Stenodisplay Square Medium;
+    src: url(Stenodisplay-SquareMedium.ttf);
+}
+.steno-squaremedium {
+    white-space: pre-wrap;
+    font-family: Stenodisplay Square Medium, monospace;
+    font-size: 200pt;
+}
+
+
+@font-face {
+    font-family: Stenodisplay Square Large;
+    src: url(Stenodisplay-SquareLarge.ttf);
+}
+.steno-squarelarge {
+    white-space: pre-wrap;
+    font-family: Stenodisplay Square Large, monospace;
+    font-size: 200pt;
+}
+
+@font-face {
+    font-family: Stenodisplay Square Blank;
+    src: url(Stenodisplay-SquareBlank.ttf);
+}
+.steno-squareblank {
+    white-space: pre-wrap;
+    font-family: Stenodisplay Square Blank, monospace;
+    font-size: 200pt;
+}
+
+
+@font-face {
+    font-family: Palandisplay;
+    src: url(Palandisplay.ttf);
+}
+.palan {
+    white-space: pre-wrap;
+    font-family: Palandisplay, monospace;
+    font-size: 160pt;
+}
+
+
 input:required:invalid {
     border-color: red;
 }

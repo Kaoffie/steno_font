@@ -12,29 +12,114 @@
     <div class="top-bar pastelred">
       <div class="top-bar-left">
         <ul class="menu show-for-small-only">
-          <li class="menu-text">Steno Font Test</li>
+          <li class="menu-text">Steno Font Demo</li>
         </ul>
         <ul class="menu show-for-medium">
-          <li class="menu-text">Steno Font Test</li>
+          <li class="menu-text">Steno Font Demo</li>
         </ul>
       </div>
     </div><br />
     <div class="column row" id="content">
       <label for="user-field">Text Input</label>
       <p class="help-text db-help" id="user-help">Input Steno Here!</p>
-      <input type="text" id="user-field" aria-describedby="user-help" required>
+      <input type="text" id="user-field" value="T*ES" aria-describedby="user-help" required>
 
-      <label>Stenodisplay-Font</label>
-      <p class="help-text db-help" id="syntax-help">Used for general steno display.</p>
+
+      <h3>Classic</h3>
+
+      <label>Stenodisplay Classic</label>
+      <p class="help-text db-help" id="syntax-help">Constant width keys, regular labels.</p>
       <div class="callout secondary exp">
-        <pre class="steno-font" id="steno-font"></pre>
+        <pre class="steno-classic" id="steno-classic">T*ES</pre>
       </div>
 
-      <label>Stenodisplay-Dict</label>
-      <p class="help-text db-help" id="syntax-help">Used for browsing Plover dictionaries.</p>
+      <label>Stenodisplay Classic Medium</label>
+      <p class="help-text db-help" id="syntax-help">Constant width keys, medium labels.</p>
       <div class="callout secondary exp">
-        <pre class="steno-dict" id="steno-dict"></pre>
+        <pre class="steno-classicmedium" id="steno-classicmedium">T*ES</pre>
       </div>
+
+      <label>Stenodisplay Classic Large</label>
+      <p class="help-text db-help" id="syntax-help">Constant width keys, large labels.</p>
+      <div class="callout secondary exp">
+        <pre class="steno-classiclarge" id="steno-classiclarge">T*ES</pre>
+      </div>
+
+      <label>Stenodisplay Classic Blank</label>
+      <p class="help-text db-help" id="syntax-help">Constant width keys, no labels.</p>
+      <div class="callout secondary exp">
+        <pre class="steno-classicblank" id="steno-classicblank">T*ES</pre>
+      </div>
+
+
+      <h3>Wide</h3>
+
+      <label>Stenodisplay Wide</label>
+      <p class="help-text db-help" id="syntax-help">Wide *DZ keys, regular labels.</p>
+      <div class="callout secondary exp">
+        <pre class="steno-wide" id="steno-wide">T*ES</pre>
+      </div>
+
+      <label>Stenodisplay Wide Medium</label>
+      <p class="help-text db-help" id="syntax-help">Wide *DZ keys, medium labels.</p>
+      <div class="callout secondary exp">
+        <pre class="steno-widemedium" id="steno-widemedium">T*ES</pre>
+      </div>
+
+      <label>Stenodisplay Wide Large</label>
+      <p class="help-text db-help" id="syntax-help">Wide *DZ keys, large labels.</p>
+      <div class="callout secondary exp">
+        <pre class="steno-widelarge" id="steno-widelarge">T*ES</pre>
+      </div>
+
+      <label>Stenodisplay Wide Blank</label>
+      <p class="help-text db-help" id="syntax-help">Wide *DZ keys, no labels.</p>
+      <div class="callout secondary exp">
+        <pre class="steno-wideblank" id="steno-wideblank">T*ES</pre>
+      </div>
+
+
+      <h3>Square</h3>
+
+      <label>Stenodisplay Square</label>
+      <p class="help-text db-help" id="syntax-help">Square keys, regular labels.</p>
+      <div class="callout secondary exp">
+        <pre class="steno-square" id="steno-square">T*ES</pre>
+      </div>
+
+      <label>Stenodisplay Square Medium</label>
+      <p class="help-text db-help" id="syntax-help">Square keys, medium labels.</p>
+      <div class="callout secondary exp">
+        <pre class="steno-squaremedium" id="steno-squaremedium">T*ES</pre>
+      </div>
+
+      <label>Stenodisplay Square Large</label>
+      <p class="help-text db-help" id="syntax-help">Square keys, large labels.</p>
+      <div class="callout secondary exp">
+        <pre class="steno-squarelarge" id="steno-squarelarge">T*ES</pre>
+      </div>
+
+      <label>Stenodisplay Square Blank</label>
+      <p class="help-text db-help" id="syntax-help">Square keys, no labels.</p>
+      <div class="callout secondary exp">
+        <pre class="steno-squareblank" id="steno-squareblank">T*ES</pre>
+      </div>
+
+     
+      <h3>Palandisplay</h3>
+
+      <label for="user-field">Text Input</label>
+      <p class="help-text db-help" id="user-help">Input Palan Here!</p>
+      <input type="text" id="user-field" value="PA/LAN/TAIP" aria-describedby="user-help" required>
+
+      <label>Palandisplay</label>
+      <p class="help-text db-help" id="syntax-help">Palantype display font</p>
+      <div class="callout secondary exp">
+        <pre class="palan" id="palan">PA/LAN/TAIP</pre>
+      </div>
+
+      
+
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js" integrity="sha256-Nd2xznOkrE9HkrAMi4xWy/hXkQraXioBg9iYsBrcFrs=" crossorigin="anonymous"></script>
