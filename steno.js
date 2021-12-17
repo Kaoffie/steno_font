@@ -10,6 +10,10 @@ function updateSyntax() {
     $('#steno-squaremedium').text(input_text);
     $('#steno-squarelarge').text(input_text);
     $('#steno-squareblank').text(input_text);
+
+    var input_palan = $('#palan-field').val();
+
+    $('#palan').text(input_palan);
 }
 
 function pageLoad(page) {
