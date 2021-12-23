@@ -3,7 +3,7 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaoffie/steno_font)
 ![SIL Open Font License 1.1](https://img.shields.io/badge/license-OFL--1.1-green)
 
-**Stenodisplay** is a font generates steno key diagrams directly from raw steno outlines, designed for use in blogs, websites, spreadsheets, and flashcards.
+**Stenodisplay** is a font that generates steno key diagrams directly from raw steno outlines, designed for use in blogs, websites, spreadsheets, and flashcards.
 
 ![](https://user-images.githubusercontent.com/30435273/146593219-390f8b35-a9f5-4cd3-a11d-f4dc2ba216da.png)
 

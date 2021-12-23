@@ -1,6 +1,11 @@
 function updateSyntax() {
     var input_text = $('#user-field').val();
 
+    $('#steno-classic').text(input_text);
+    $('#steno-classicmedium').text(input_text);
+    $('#steno-classiclarge').text(input_text);
+    $('#steno-classicblank').text(input_text);
+
     $('#steno-wide').text(input_text);
     $('#steno-widemedium').text(input_text);
     $('#steno-widelarge').text(input_text);
